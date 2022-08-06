@@ -1,3 +1,4 @@
+
 body {
   font: 34px "Century Gothic", Futura, sans-serif;
   margin: 20px;
@@ -16,21 +17,22 @@ ul {
 
 .status {
   margin-bottom: 10px;
+  margin-right: 200px;
 }
 
 .square {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 54px;
+  font-size: 144px;
   font-weight: bold;
   line-height: 64px;
-  height: 64px;
+  height: 150px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 64px;
+  width: 150px;
 }
 
 .square:focus {
@@ -43,10 +45,27 @@ ul {
 
 .game {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 100px 145px;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-top: 30px;
+  display: flex;
 }
+.game-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RplayBTn button{
+  width: 124px;
+  height: 41px;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
 
