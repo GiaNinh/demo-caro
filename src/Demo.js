@@ -129,6 +129,21 @@ export default function Demo() {
     }
 
   }
+  
+  // replay button
+  const Background =() =>{
+    return (
+      <div style={{backgroundImage:"url(/background.jfif)"}}></div>
+    )
+  }
+  const replay = () =>{
+    for (let i = 0; i< squares.length; i++)
+    {
+      squares[i] = null;
+    }
+    setSquares(squares);
+    setTurn(true);
+  }
 
   return (
     <div className="game">
